@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Toilettes Paris</string>
+
+    <string name="no_permission">Permission non accordée</string>
+
+    <string name="maps_activity_data_download_in_progress">Nous récuperons les dernières mises à jours\n\nVeuillez patienter quelques instants...\n\n Merci :)</string>
+    <string name="maps_activity_data_cannot_get_location">Impossible de vous localiser</string>
+    <plurals name="toilet_details_view_district">
+        <item quantity="one">%ser arrondissement</item>
+        <item quantity="other">%s ème arrondissement</item>
+    </plurals>
+    <string name="toilet_details_view_added_to_favorite">Ajouté au favoris</string>
+    <string name="toilet_details_view_removed_to_favorite">Retiré au favoris</string>
+
+    <string name="activity_list_title_favorites">Vos favoris</string>
+    <string name="activity_list_title_all">Liste complète</string>
+
+    <string name="maps_activity_search_address">Chercher une adresse</string>
+    <string name="maps_activity_num_toilets_available">%d toilet(s) disponible !</string>
+    <string name="maps_activity_connection_error">Impossible de mettre à jour les données pour le moment\n\nVérifiez vos paramètres de connexions puis rééssayez</string>
+    <string name="maps_activity_load_cached_data">Charger les données\nhors ligne</string>
+    <string name="maps_activity_connection_error_no_cache_available">Impossible de mettre à jour les données pour le moment\n\nVérifiez vos paramètres de connexions puis rééssayez\n\n(Aucune données en cache disponible)</string>
+
+    <string name="share_intent_title">Continuer avec</string>
+    <string name="share_intent_subject">Toilettes</string>
+    <string name="share_intent_message">J’ai trouvé des toilettes au %s dans le %s\nOuverture : %s\nVoici le lien Google Map : http://maps.google.com/maps?daddr=%s,%s</string>
+
+    <string name="app_info_dialog_title">À propos</string>
+    <string name="app_info_dialog_message">Trouvez des toilettes facilement !\n\nApplication réalisée par @github/correntin dans le cadre d\'un teste technique pour une entreprise.</string>
+
+    <string name="maps_activity_drawer_title">Trouvez des toilettes facilement dans Paris !</string>
+    <string name="maps_activity_drawer_item_map">Carte</string>
+    <string name="maps_activity_drawer_item_favorites">Favoris</string>
+    <string name="maps_activity_drawer_item_list">List</string>
+    <string name="maps_activity_drawer_item_appinfo">À propos</string>
+    <string name="maps_activity_drawer_item_exit">Quitter</string>
+
+    <string name="google_places_error">Google Places API error</string>
+
+    <string name="view_toilet_details_go">GO</string>
+
+    <string name="activity_list_empty_favorites">Vous n\'avez aucun favoris</string>
+    <string name="activity_list_add_new_favorites">En ajouter\nvia la carte</string>
+</resources>

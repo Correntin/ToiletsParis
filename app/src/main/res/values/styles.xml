@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="YellowButton" parent="Theme.AppCompat">
+        <item name="colorButtonNormal">#FFC107</item>
+        <item name="colorControlHighlight">#FFECB3</item>
+    </style>
+
+    <style name="GreenButton" parent="Theme.AppCompat">
+        <item name="colorButtonNormal">#4CAF50</item>
+        <item name="colorControlHighlight">#C8E6C9</item>
+    </style>
+
+    <style name="CyanButton" parent="Theme.AppCompat">
+        <item name="colorButtonNormal">#00BCD4</item>
+        <item name="colorControlHighlight">#B2EBF2</item>
+    </style>
+
+    <style name="PrimaryButton" parent="Theme.AppCompat">
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+</resources>

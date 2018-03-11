@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/maps_activity_drawer_menu_item_map"
+        android:checked="false"
+        android:icon="@drawable/ic_drawer_map"
+        android:title="@string/maps_activity_drawer_item_map" />
+    <item
+        android:id="@+id/maps_activity_drawer_menu_item_favorites"
+        android:checked="false"
+        android:icon="@drawable/ic_drawer_favorites"
+        android:title="@string/maps_activity_drawer_item_favorites" />
+    <item
+        android:id="@+id/maps_activity_drawer_menu_item_list"
+        android:checked="false"
+        android:icon="@drawable/ic_drawer_list"
+        android:title="@string/maps_activity_drawer_item_list" />
+    <item
+        android:id="@+id/maps_activity_drawer_menu_item_appinfo"
+        android:checked="false"
+        android:icon="@drawable/ic_drawer_info"
+        android:title="@string/maps_activity_drawer_item_appinfo" />
+    <item
+        android:id="@+id/maps_activity_drawer_menu_item_exit"
+        android:checked="false"
+        android:icon="@drawable/ic_drawer_exit"
+        android:title="@string/maps_activity_drawer_item_exit" />
+</menu>
