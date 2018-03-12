@@ -8,7 +8,6 @@ import android.content.Intent;
 import android.content.res.TypedArray;
 import android.net.Uri;
 import android.os.Build;
-import android.text.TextUtils;
 import android.util.TypedValue;
 
 import fr.correntin.android.toilets_paris.R;
@@ -21,18 +20,22 @@ public class Utils {
 
     public static String formatStreet(String street) {
 
-        if (TextUtils.isEmpty(street) == false) {
+        if (street != null && street.length() > 0) {
+            street = street.trim();
             String[] streetWords = street.trim().split(" ");
             StringBuilder streetFormatted = new StringBuilder();
 
-            for (String streetWord : streetWords) {
+            for (int i = 0; i < streetWords.length; i++) {
+                String streetWord = streetWords[i];
                 streetFormatted.append(streetWord.substring(0, 1).toUpperCase());
 
                 if (streetWord.length() > 1)
                     streetFormatted.append(streetWord.substring(1).toLowerCase());
 
-                streetFormatted.append(" ");
+                if (i < streetWords.length - 1)
+                    streetFormatted.append(" ");
             }
+
             return streetFormatted.toString();
         }
 

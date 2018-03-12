@@ -28,6 +28,9 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
 /**
+ * This activity is used to list toilets (ful list or just favorites)<br/>
+ * If it's favorite toilets, when a toilete is deleted from favorites, the item is deleted too<br/>
+ * <p>
  * Created by Corentin on 10/03/2018.
  */
 

@@ -27,6 +27,13 @@ import fr.correntin.android.toilets_paris.utils.Preferences;
 import fr.correntin.android.toilets_paris.utils.Utils;
 
 /**
+ * Simple custom view to display info about a toilet<br/>
+ * an be used anywhere<br/>
+ * <br/>
+ * All onClicks are called in class<br/>
+ * <br/>
+ * You can use ToiletDetailsViewListener to be informed about add/remove from favorites
+ * <br/>
  * Created by Corentin on 09/03/2018.
  */
 

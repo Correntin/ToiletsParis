@@ -9,6 +9,8 @@ import java.util.Set;
 import fr.correntin.android.toilets_paris.BuildConfig;
 
 /**
+ * Allow dev to store favorite toilets in SharedPreferences<br/>
+ * <p>
  * Created by Corentin on 10/03/2018.
  */
 

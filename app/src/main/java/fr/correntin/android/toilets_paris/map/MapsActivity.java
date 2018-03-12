@@ -58,6 +58,16 @@ import rx.Subscriber;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
+/**
+ * Main activity to display a google maps with all toilets<br/>
+ * When user clicks on a marker, a ToiletDetailsView is displayed<br/>
+ * <br/>
+ * User can open menu by scrolling on left to access to others screens (favorites list...)
+ * <br/>
+ * To open this activity, just call MapsActivity.start()
+ * <p>
+ * Created by Corentin on 10/03/2018.
+ */
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, GoogleMap.OnMarkerClickListener,
         NavigationView.OnNavigationItemSelectedListener, ToiletDetailsView.ToiletDetailsViewListener {
 
@@ -79,6 +89,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         Utils.startActivity(context, intent, true);
     }
 
+    /**
+     * Open activity with a focus on @param toiletId
+     *
+     * @param context
+     * @param toiletId
+     */
     public static void start(Context context, String toiletId) {
         Intent intent = new Intent(context, MapsActivity.class);
         intent.putExtra(TOILET_ID_EXTRA, toiletId);
